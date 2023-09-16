@@ -39,7 +39,7 @@ public class TaskController {
     }
 
     @DeleteMapping("task/{taskNumber}")
-    public String dlelteMapping() {
+    public String dlelteMapping() { 
         return "삭제 완료!!";
     }
 }
